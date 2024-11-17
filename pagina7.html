@@ -21,19 +21,21 @@
         }
 
         .content {
-            display: flex;
-            flex-wrap: wrap; /* Asegura que las imágenes se ajusten a varias filas */
-            justify-content: center; /* Centra horizontalmente las imágenes */
-            gap: 10px; /* Espacio entre las imágenes */
-            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Crear columnas adaptables */
+            gap: 0; /* Eliminar espacios entre las imágenes */
+            justify-items: center; /* Centrar las imágenes en sus celdas */
+            align-items: center; /* Asegura que estén verticalmente alineadas */
+            padding: 0; /* Sin relleno */
+            margin: 0 auto; /* Centrado general */
+            max-width: 100%; /* Evita desbordes */
         }
 
         .content img {
             width: 300px;
-            height: 200px; /* Ajustar la altura para que todas sean iguales */
-            object-fit: cover; /* Ajusta el recorte para llenar el espacio sin deformar la imagen */
-            border-radius: 5px; /* Bordes redondeados */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+            height: 200px; /* Ajustar la altura */
+            object-fit: cover; /* Ajustar sin deformar */
+            display: block; /* Elimina cualquier margen extra */
         }
 
         a {
@@ -77,3 +79,4 @@
     </footer>
 </body>
 </html>
+
