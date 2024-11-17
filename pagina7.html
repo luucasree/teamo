@@ -22,22 +22,18 @@
 
         .content {
             display: flex;
-            align-items: center; /* Centrado vertical */
-            justify-content: center; /* Centrado horizontal */
-            flex-wrap: wrap; /* Asegura que el texto y la imagen no se desborden */
+            flex-wrap: wrap; /* Asegura que las imágenes se ajusten a varias filas */
+            justify-content: center; /* Centra horizontalmente las imágenes */
+            gap: 10px; /* Espacio entre las imágenes */
+            padding: 10px;
         }
 
-        p {
-            background-color: #ffffff; /* Fondo blanco para el texto */
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-            font-size: 1.1em;
-            width: 70%; /* Ajusta el ancho del texto */
-        }
-
-        b {
-            color: #FF69B4; /* Resaltar palabras clave en rosa */
+        .content img {
+            width: 300px;
+            height: 200px; /* Ajustar la altura para que todas sean iguales */
+            object-fit: cover; /* Ajusta el recorte para llenar el espacio sin deformar la imagen */
+            border-radius: 5px; /* Bordes redondeados */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
         }
 
         a {
@@ -70,89 +66,12 @@
 <body>
     <h1>"FOTOSS📷📷"</h1>
     <div class="content">
-
-        <p>   
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol1.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol2.jpg" width="300">
-             <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol3.jpg" width="300">
-
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol4.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol5.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol6.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol7.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol8.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol9.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol10.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol11.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol12.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol13.jpg" width="300">
-             <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol14.jpg" width="300">
-             <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol15.jpg" width="300">
-             <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol16.jpg" width="300">
-             <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol17.jpg" width="300">
-             <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol18.jpg" width="300">
-             <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol19.jpg" width="300">
-             <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol20.jpg" width="300">
-             <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol21.jpg" width="300">
-             <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol22.jpg" width="300">
-             <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol23.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol24.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol25.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol26.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol27.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol28.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol29.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol30.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol31.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol32.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol33.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol34.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol35.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol36.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol37.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol38.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol39.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol40.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol41.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol42.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol43.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol44.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol45.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol46.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol47.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol48.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol49.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol50.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol51.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol52.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol53.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol54.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol55.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol56.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol57.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol58.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol59.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol60.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol61.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol62.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol63.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol64.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol65.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol66.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol67.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol68.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol69.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol70.jpg" width="300">
-            <img src="https://raw.githubusercontent.com/luucasree/teamo/main/SOL.jpg" width="300">
-       
-            
-            
-            
-           
-        <a href="INDEX.html">inicio</a>
-        </p>
-       
+        <!-- Las 70 imágenes -->
+        ${Array.from({ length: 70 }, (_, i) => `
+        <img src="https://raw.githubusercontent.com/luucasree/teamo/main/sol${i + 1}.jpg" alt="Foto ${i + 1}">
+        `).join('')}
     </div>
+    <a href="INDEX.html">Inicio</a>
     <footer>
         <center>SERA QUE SOL ME DE LA RAZON ALGUN DIA Y NO SE ENOJE MASSS????</center>
     </footer>
